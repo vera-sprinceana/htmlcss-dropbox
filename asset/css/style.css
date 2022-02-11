@@ -11,8 +11,9 @@
 header{
     padding: 10px;
     width: 100%;
-    border: 1px solid red;
+    background-color: white;
     position: fixed;
+    /* display: inline-block; */
 }
 .logo{
     vertical-align: middle;
@@ -43,5 +44,46 @@ header nav ul li a{
 .b-inizia{
     padding: 5px;
     color:white;
-    background-color: blue;
+    background-color: rgba(0,97,255,255);
+}
+.intro{
+    width: 80%;
+    margin: auto;
+    
+}
+.bg-azul{
+    background-color: rgba(180,208,231,255);
+}
+h1{
+    display: inline-block;
+    margin-top: 80px;
+}
+.title{
+    font-size: 55px;
+}
+.text-left{
+    width: 28%;
+    margin-top: 10px;
+    float: left;
+}
+.test-free, span{
+    margin-top: 15px;
+}
+span{
+    display: block;
+}
+.arrow{
+    font-size: 4em;
+    font-weight: bold;
+}
+.collage{
+    width: calc(80% - 27%);
+    float: right;
+}
+.proposta{
+    width: 120%;
+    margin-top: 10px;
+    margin-bottom: -15%;
+    margin-left:-15% ;
+
 }
