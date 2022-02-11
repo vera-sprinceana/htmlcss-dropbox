@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid red;
+    position: fixed;
+}
+.logo{
+    vertical-align: middle;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    vertical-align: middle;
+}
+.menu-left .logo{
+    float: left;
+}
+.menu-right .b-inizia{
+    float: right;
+}
+.text-right{
+    text-align: right;
+}
+.menu-right{
+    margin-top: -2%;
+}
+.b-inizia{
+    padding: 5px;
+    color:white;
+    background-color: blue;
+}
