@@ -8,13 +8,30 @@
     display: table;
     clear: both;
 }
+/* GENERAL */
 header{
     padding: 10px;
     width: 100%;
     background-color: white;
     position: fixed;
-    /* display: inline-block; */
+    top: 0;
+    z-index: 500;
 }
+main{
+    display: inline-block;
+    margin-top: 80px;
+}
+p{
+    margin-top: 10%;
+}
+.check, h3, h4, i{
+    padding: 10px;
+}
+hr{
+    color: lightgrey;
+}
+/**/
+/* HEADER E MENU */
 .logo{
     vertical-align: middle;
 }
@@ -47,18 +64,15 @@ header nav ul li a{
     color:white;
     background-color: rgba(0,97,255,255);
 }
+/* INTRO */
 .intro{
     width: 80%;
     margin: auto;
-    
 }
 .bg-azul{
     background-color: rgba(180,208,231,255);
 }
-h1{
-    display: inline-block;
-    margin-top: 80px;
-}
+
 .title{
     font-size: 55px;
 }
@@ -89,20 +103,25 @@ h1{
     margin-top: 10px;
     margin-bottom: -15%;
     margin-left: -15%;
-
 }
+/* PIANO TARIFFARIO */
 .row{
     width: 80%;
-    margin: auto;
-    margin-left:20%;
+    margin-left:15%;
 }
 .column{
-    width: calc(80% / 3);
-    height: 100%;
+    width: calc(80% / 3) ;
     display: inline-block;
-    border: 1px solid rebeccapurple;
+    border: 1px solid lightgray;
+    margin: 0%;
     margin-top: 5%;
-    padding-bottom: 10%;
+    padding: 25px;
+    min-height: 1023px;
+}
+
+.c-p{
+    margin: 0 40px;
+    display: inline-block;
 }
 .opzioni-fatturazione{
     margin-top: 15%;
@@ -111,20 +130,21 @@ input{
     margin-top:3% ;
     margin-left: 1%;
 }
-i{
-    border-bottom: 1px solid lightgrey;
-}
-.check,  h3, h4, i, p{
-    padding: 10px;
-}
+
 .test{
-    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     width: 90%;
 }
 .hr-short{
-    margin-left: 5%;
+    margin-top: 5%;
+    margin-left: 1%;
     width: 30%;
     color: lightgrey;
+}
+.color-blue{
+    text-decoration: none;
+    color: blue;
 }
 .entity-check{
     color: blue;
@@ -133,24 +153,21 @@ i{
 .m-top{
     margin-top: 10%;
 }
+/* CERCA PARTNER */
 .team{
     padding: 1.5%;
     margin-left: 50%;
 }
-hr{
-    color: lightgrey;
-}
+
 .row-2{
-    border: 1px solid rgba(255, 182, 193, 0.473);
+    border: 1px solid lightgrey;
 }
-.row-2, .row-3{
-    width: 65%;
+.row-2, .row-3, .row-4{
+    width: 70%;
     margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 15%;
 }
-.solution{
-    padding: 10px;
-}
+
 .f-left{
     float: left;
 }
@@ -158,13 +175,22 @@ hr{
     margin-right: 20px;
 }
 .partner{
-    width: 50%;
+    width: 45%;
 }
 .text{
     width: 39%;
+    float: right;
+}
+.solution{
+    margin:5% 10px ;
 }
 .b-white{
-    padding: 5px 10px;
+    padding: 10px 10px;
     background-color: white;
-    margin:10px 10px;
+    margin-top: 5%;
+}
+/* OPZIONI */
+.img-column{
+    width: 15em;
+    margin-bottom: 10%;
 }

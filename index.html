@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./asset/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./asset/css/style.css">
     <title>Dropbox</title>
 </head>
 <body>
@@ -46,6 +46,7 @@
         </div>
     </header>
     <main>
+        <!--INTRODUZIONE-->
         <div class="bg-azul">
             <section class="intro clearfix">
                 <div class="title "><h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1></div>
@@ -60,24 +61,25 @@
                 </div>
             </section>
         </div>
+        <!--PIANO TARIFFARIO-->
         <section class=" row">
             <div class="opzioni-fatturazione">
                 <h2>Trova il piano Dropbox Business che fa per te</h2>
-                <input type="radio" name="Fatturazione mensile" id="">
+                <input type="radio" name="Fatturazione mensile" id="" checked>
                 <span>Fatturazione mensile</span>
                 <input type="radio" name="Fatturazione annuale" id="">
                 <span>Fatturazione annuale </span>   
             </div>
             <div class="column">
-                <i class="fa-thin fa-user-visor"> Singolo</i>
+                <span><i class="fa-regular fa-user"></i>Singolo</span>
                 <h3>Professional</h3>
                 <h4>19,99 €</h4>
                 <h4>/mese</h4>
-                <p>1 utente</p>
-                <p>3 TB di spazio di archiviazione sicuro</p>
-                <p>Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                <div><i class="fa-regular fa-user"></i>1 utente</div>
+                <div><i class="fa-regular fa-folder"></i>3 TB di spazio di archiviazione sicuro</div>
+                <div><i class="fa-solid fa-pencil"></i>Funzioni di produttività premium e condivisione file semplice e sicura</div>
                 <button class="b-inizia test">Prova gratis per 30 giorni</button>
-                <p>oppure <a href="#">acquista ora</a></p>
+                <div>oppure <a class="color-blue" href="#">acquista ora</a></div>
                 <hr class="hr-short">
                 <h4>Punti salienti del piano</h4>
                 <div class="check"><span class="entity-check">&#x2714;</span> Invia fine fino a 100 GB con Dropbox Transfert</div>
@@ -86,16 +88,16 @@
                 <div class="check"><span class="entity-check">&#x2714;</span>Filigrana documento</div>
                 <div class="check"><span class="entity-check">&#x2714;</span>Assistenza prioritaria via email e chat</div>
             </div>
-            <div class="column">
-                <i class="fa-thin fa-user-visor"> Team</i>
+            <div class="column c-p">
+                <span><i class="fa-regular fa-building"></i> Team</span> 
                 <h3>Standart</h3>
                 <h4>19,99 €</h4>
                 <h4>/ utente / mese, a partire da 3 utenti</h4>
-                <p>1 utente</p>
-                <p>3 TB di spazio di archiviazione sicuro</p>
-                <p>Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                <div><i class="fa-solid fa-user-plus"></i>1 utente</div>
+                <div><i class="fa-regular fa-folder"></i>3 TB di spazio di archiviazione sicuro</div>
+                <div><i class="fa-regular fa-face-smile"></i>Funzioni di produttività premium e condivisione file semplice e sicura</div>
                 <button class="b-inizia test">Prova gratis per 30 giorni</button>
-                <p>oppure <a href="#">acquista ora</a></p>
+                <p>oppure <a class="color-blue" href="#">acquista ora</a></p>
                 <hr class="hr-short">
                 <h4>Punti salienti del piano</h4>
                 <div class="check"><span class="entity-check">&#x2714;</span> Invia fine fino a 100 GB con Dropbox Transfert</div>
@@ -106,15 +108,15 @@
                 <div class="check"><span class="entity-check">&#x2714;</span>Assistenza prioritaria via email e chat</div>
             </div>
             <div class="column">
-                <i class="fa-thin fa-user-visor"> Advanced</i>
+                <span><i class="fa-regular fa-building"></i>Advanced</span> 
                 <h3>Standart</h3>
                 <h4>19,99 €</h4>
                 <h4>/ utente / mese, a partire da 3 utenti</h4>
-                <p>1 utente</p>
-                <p>3 TB di spazio di archiviazione sicuro</p>
-                <p>Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                <div><i class="fa-solid fa-user-plus"></i>1 utente</div>
+                <div><i class="fa-regular fa-face-smile"></i>3 TB di spazio di archiviazione sicuro</div>
+                <div><i class="fa-solid fa-pencil"></i>Funzioni di produttività premium e condivisione file semplice e sicura</div>
                 <button class="b-inizia test">Prova gratis per 30 giorni</button>
-                <p>oppure <a href="#">acquista ora</a></p>
+                <div >oppure <a class="color-blue" href="#">acquista ora</a></div>
                 <hr class="hr-short">
                 <h4>Punti salienti del piano</h4>
                 <div class="check"><span class="entity-check">&#x2714;</span> Invia fine fino a 100 GB con Dropbox Transfert</div>
@@ -125,8 +127,9 @@
                 <div class="check"><span class="entity-check">&#x2714;</span>Assistenza prioritaria via email e chat</div>
             </div>
         </section>
+        <!--ENTRA IN CONTATTO CON UN PARTNER-->
         <section class="row-2 clearfix">
-            <div class="team">Team</div>
+            <span class="team"><i class="fa-regular fa-building"></i>Team</span>
             <hr>
             <div class="f-left">
                <h3>Enterprise</h3>
@@ -140,11 +143,52 @@
         <section class="row-3 clearfix">
             <div class="f-left">
                 <img class="partner" src="./asset/img/partner.png" alt="">
-            </div>
-            <div class="f-right text">
-                <h3>Entra in contatto con un partner Dropbox</h3>
-                <div class="solution">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</div>
-                <button class="b-white">Trova un partner</button>
+                <div class="f-right text">
+                    <h2>Entra in contatto con un partner Dropbox</h2>
+                    <div class="solution">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</div>
+                    <button class="b-white">Trova un partner</button>
+                </div>
+            </div> 
+        </section>
+        <section > <!--OPZIONI DI DROPBOX-->
+            <div class="row-4">
+                <h1>Esegui più operazioni con Dropbox Business</h1>
+                <div class="column">
+                    <div>
+                        <img class="img-column" src="./asset/img/business-feature-switching-tools.png" alt="">
+                        <h2>Passa di meno da uno strumento all'altro</h2>
+                        <p>Porta a termine le attività quatidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
+                    </div>
+                    <div>
+                        <img class="img-column" src="./asset/img/business-feature-integrations-it.png" alt="">
+                        <h2>Passa di meno da uno strumento all'altro</h2>
+                        <p>Porta a termine le attività quatidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
+                    </div>
+                </div>
+                <div class="column c-p">
+                    <div>
+                    <img class="img-column" src="./asset/img/business-feature-coordinate-it.png" alt="">
+                    <h2>Passa di meno da uno strumento all'altro</h2>
+                     <p>Porta a termine le attività quatidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
+                    </div>
+                    <div>
+                        <img class="img-column" src="./asset/img/business-feature-send-files-it.png" alt="">
+                        <h2>Passa di meno da uno strumento all'altro</h2>
+                        <p>Porta a termine le attività quatidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
+                    </div>
+                </div>
+                <div class="column"> 
+                    <div>
+                        <img class="img-column" src="./asset/img/business-feature-multi-device.png" alt="">
+                        <h2>Passa di meno da uno strumento all'altro</h2>
+                        <p>Porta a termine le attività quatidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
+                    </div>
+                    <div>
+                        <img class="img-column" src="./asset/img/business-feature-security.png" alt="">
+                        <h2>Passa di meno da uno strumento all'altro</h2>
+                        <p>Porta a termine le attività quatidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
