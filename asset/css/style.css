@@ -228,13 +228,13 @@ input{
     float: left;
 }
 .colonna-2{
-    width:14.9vw;
-    height: 14.9vw;
+    width:15vw;
+    height: 15vw;
     text-align: center;
 }
 .item, .item-2{
     text-align: center;
-    line-height: 13.9vw;
+    line-height: 14vw;
 }
 .item{
     float: left;
@@ -252,7 +252,7 @@ input{
     float: left;
     background-color: rgba(162,211,155,255);
     border:solid 10px rgba(208,233,205,255);
-    line-height: 13.9vw;
+    line-height: 14vw;
 }
 
 .bg-bordeaux{
@@ -298,4 +298,59 @@ input{
 .bg-yellow{
     float: right;
     background-color: rgba(255,216,48,255);
+}
+.c-h2{
+    width: 40%;
+    padding: 70px;
+    color: rgba(106,30,64,255);
+}
+.c-button{
+    width: 30%;
+    padding: 50px;  
+}
+.prova{
+    padding: 5px 40px;
+    background-color: white;
+    border: white;
+}
+.bg-grey{
+    background-color: rgba(180,208,231,255);
+}
+.p-row{
+    padding: 2% 0;
+    border-top: 1px solid black;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.b-bottom{
+    border-bottom: 1px solid black;
+}
+.fa-angle-down{
+    float: right;
+    vertical-align:middle;
+}
+.colonna-3{
+    margin-top: 5%;
+    width: calc(80% / 5);
+    float: left;
+    margin-right: 3%;
+    padding-right: 2%;
+    color: white;
+}
+footer{
+    background-color: rgba(0,0,0,255);
+}
+footer ul li{
+    list-style-type: none;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.fine{
+    color: rgba(153,153,153,255);
+    float: left;
+    padding-left: 10%;
+}
+.hr-short2{
+    width: 15%;
 }
