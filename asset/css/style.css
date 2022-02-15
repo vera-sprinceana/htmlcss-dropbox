@@ -215,11 +215,19 @@ input{
     width: 20%;
 }
 /* SEZIONE IMMAGINI */
+.row-5{
+    width: 100%;
+}
+.colonna{
+    width: 15%;
+    border: 1px solid red;
+}
 .riga{
     width: auto;
     display: inline-block;
     float: left;
 }
+
 .size-img{
     width: auto;
     max-width: 100%;
@@ -227,20 +235,35 @@ input{
     color: white;
 }
 .l-green{
-    width: 50%;
     background-color: rgba(162,211,155,255);
     box-shadow: inset 10px 10px 5px rgba(208,233,205,255);
 }
 .bg-bordeaux{
-    width: 50%;
     background-color: rgba(97,8,43,255);
 }
 .bg-l-blue{
+    background-color: rgba(0,147,206,255);
 }
 .bg-red{
-
+    background-color: rgba(255,28,28,255);
 }
 .scroll{
-    /* width: 50%;
-    border: 1px solid red; */
+    width: 40%;
+    margin: auto;
+    border: 1px solid red;
+}
+.f-right2{
+    float: right;
+}
+.bg-red2{
+    background-color: rgba(213,0,31,255);
+}
+.bg-blue{
+    background-color: rgba(13,36,129,255);
+}
+.bg-l-grey{
+    background-color: rgba(180,208,231,255);
+}
+.bg-yellow{
+    background-color: rgba(255,216,48,255);
 }
