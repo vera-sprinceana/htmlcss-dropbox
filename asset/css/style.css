@@ -27,11 +27,18 @@ p{
 .check, h3, h4, i{
     padding: 10px;
 }
+.check{
+    padding-bottom: 10px;
+}
 hr{
     color: lightgrey;
 }
 .c-blue{
     color: rgba(29,114,255,255);
+}
+.f-weight{
+    font-weight: bold;
+    padding: 10px;
 }
 /**/
 /* HEADER E MENU */
@@ -116,14 +123,14 @@ header nav ul li a{
     margin: auto;
 }
 .column, .column-2{
-    width: calc(80% / 3) ;
+    width: calc((100% - 90px) /3);
     display: inline-block;
     margin-top: 5%;
     padding: 25px;
 }
 .column{
     min-height: 1023px;
-    border: 1px solid lightgray;
+    border: solid 1px lightgray;
 }
 
 .c-p{
@@ -137,9 +144,7 @@ input{
     margin-top:3% ;
     margin-left: 1%;
 }
-.special{
-    border-top: 1pz solid red;
-}
+
 .test{
     margin-top: 10%;
     margin-bottom: 10%;
@@ -218,7 +223,7 @@ input{
     width: 30%;
     margin-left: 15%;
 }
-/* SEZIONE IMMAGINI */
+/* SECTION SQUARE */
 .row-5{
     width: 100%;
 }
@@ -267,19 +272,6 @@ input{
     float: left;
     background-color: rgba(255,28,28,255);
 }
-.scroll{
-    width: calc(100% - 60vw);
-    margin: auto;
-    float: left;
-    height: 30vw;
-    padding: 60px;
-    overflow-y: auto;
-    background-color: rgba(245,245,245,255);
-}
-.scroll-img{
-    width: 40%;
-  
-}
 .f-right2{
     float: right;
 }
@@ -299,8 +291,22 @@ input{
     float: right;
     background-color: rgba(255,216,48,255);
 }
-.c-h2{
+/* SECTION SCROLL */
+.scroll{
+    width: calc(100% - 60vw);
+    margin: auto;
+    float: left;
+    height: 30vw;
+    padding: 60px;
+    overflow-y: auto;
+    background-color: rgba(245,245,245,255);
+}
+.scroll-img{
     width: 40%;
+}
+/*  */
+.c-h2{
+    width: 35%;
     padding: 70px;
     color: rgba(106,30,64,255);
 }
@@ -317,7 +323,7 @@ input{
     background-color: rgba(180,208,231,255);
 }
 .p-row{
-    padding: 2% 0;
+    padding: 1.5% 0;
     border-top: 1px solid black;
     vertical-align: middle;
     font-weight: bold;
@@ -325,18 +331,21 @@ input{
 .b-bottom{
     border-bottom: 1px solid black;
 }
+/* SECTION FAQ */
 .fa-angle-down{
+    margin-top: -1%;
     float: right;
     vertical-align:middle;
 }
 .colonna-3{
     margin-top: 5%;
-    width: calc(80% / 5);
+    width: calc((100% - 50px) / 5);
     float: left;
-    margin-right: 3%;
+    margin-right: 10px;
     padding-right: 2%;
     color: white;
 }
+/* SECTION FOOTER */
 footer{
     background-color: rgba(0,0,0,255);
 }
@@ -350,6 +359,7 @@ footer ul li{
     color: rgba(153,153,153,255);
     float: left;
     padding-left: 10%;
+    padding-bottom: 10%;
 }
 .hr-short2{
     width: 15%;
